@@ -16,6 +16,7 @@ h1{
 }
 
 .main-home{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,4 +81,40 @@ button{
     color: #fff;
     background-color: hsl(235, 18%, 26%);
 }
+
+.success{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+
+    
+}
+
+.success img{
+    width: 40px;
+    margin-right: 240px;
+    
+   
+}
+
+.success-modal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    padding-top: 40px;
+    top: 40px;
+    
+}
+
+
 
